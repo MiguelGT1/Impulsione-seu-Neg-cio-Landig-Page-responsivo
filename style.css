@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+/*MENU*/ /*MENU*/
+.logo {
+    position: absolute;
+    width: 45px;
+    height: 44.96px;
+    left: 120px;
+    top: 46px;
+    margin-top: -18px;
+    margin-left: 120px;
+    cursor: pointer;
+
+}
+
+header{
+    width: 449px;
+    height: 22px;
+    left: 495px;
+    top: 57px;
+    line-height: 22px;
+    position: absolute;
+    margin: auto;
+    margin-top: -18px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.link-header span {
+    width: 59px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D76578;
+}
+
+.link-header{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-right: 28px;
+    text-decoration: none;
+}
+
+.button1-header {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 546px;
+    top: -5px;
+    background-color: transparent;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #9F9F9F;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+ 
+}
+
+.button1{
+    text-decoration: none;
+    color: #000000;
+}
+
+.button1-header:hover{
+    background-color: gray;
+}
+
+.button1:active{
+    color: white;
+}
+
+.button2-header {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 676px;
+    top: -5px;
+    background: #000000;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.button2:active{
+    color: #D15083;
+}
+
+.button2 {
+    width: 46px;
+    height: 17px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*IMAGENS*/ /*IMAGENS*/
+
+
+.foguete {
+    position: absolute;
+    width: 773.17px;
+    height: 771.07px;
+    left: 678.97px;
+    top: 92.1px;
+    margin-left: -90px;
+    
+}
+
+
+.fundo {
+    position: absolute;
+    width: 775px;
+    height: 634px;
+    left: 600px;
+    top: 164px;
+}
+
+/*TEXTOS*/ /*TEXTOS*/
+
+h1 {
+    width: 542px;
+    height: 210px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #1C1C1C;
+}
+
+p {
+    width: 510px;
+    height: 131px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #000000;
+}
+
+section{
+    display: inline-block;
+    position: absolute;
+    top: 198px;
+    left: 119px;
+}
+
+.start{
+    width: 270px;
+    height: 70px;
+    background: linear-gradient(93.11deg, #D15083 3.68%, #D9696B 52%, #E46A48 97.38%);
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 8px 18px rgba(215, 101, 120, 0.6);
+    border-radius: 100px;
+}
+
+.start:hover{
+    background: red;
+}
+
+.start1 {
+    width: 147px;
+    height: 28px;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFBFB;
+    text-decoration: none;
+}
+
+.start1:active{
+    color: #D15083;
+}
+
+
+
+/*MediaQuery*//*MediaQuery*/
+
+
+@media screen and (max-width: 780px) {
+    header {
+        display: none;
+    }
+    .logo {
+        width: 88px;
+        height: 87px;
+        left: 45px;
+    }
+    .imagens{
+        position: absolute;
+        top: 400px;
+        left: -540px;
+    }
+    .fundo{
+        height: 291px;
+        width: 282px;
+    }
+    .foguete {
+        height: 291px;
+        width: 282px;
+        top: 160px;
+    }
+    h1{
+        font-size: 24px;
+        height: 140px;
+        width: 269px;
+        text-align: center;
+        position: relative;
+        left: 46px;
+    }
+    p {
+        height: 122px;
+        width: 338px;
+        position: relative;
+        left: 14px;
+        text-align: center;
+    }
+    .start { 
+        margin-top: 24px;
+        width: 157px;
+        height: 44px;
+        position: relative;
+        left: 102px;
+    }
+    section {
+        left: 25px;
+    }
+   
+}
